@@ -1,0 +1,16 @@
+input{
+    height: 2.5em;
+    width: 20em;
+    color:#333;
+    outline:none;
+    background-color: #ddd;
+    border-radius: 2.5em;
+}
+input:hover{
+    background-color: white;
+}
+input::placeholder{
+    
+    font-weight: bold;
+    opacity: 0.5;
+}
